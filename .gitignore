@@ -22,3 +22,50 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+*.min.js
+*.min.css
+dist/
+build/
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.temp
+.cache/
+.temp/
+.tmp/
+
+# Composer
+composer.phar
+/vendor/
+composer.lock
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
